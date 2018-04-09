@@ -19,48 +19,38 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function MenuItem(props) {
   return _react2.default.createElement(
     "div",
-    { "class": "grid_3" },
+    { className: "grid_3" },
     _react2.default.createElement(
       "div",
-      { "class": "banner" },
+      { className: "banner" },
       _react2.default.createElement(
         "div",
-        { "class": "gall_block" },
+        { className: "gall_block" },
         _react2.default.createElement("img", { src: props.src, alt: "" }),
         _react2.default.createElement(
           "div",
-          { "class": "bann_capt " },
+          { className: "bann_capt " },
           _react2.default.createElement(
             "div",
-            { "class": "maxheight" },
+            { className: "maxheight" },
             _react2.default.createElement(
               "div",
-              { "class": "bann_title" },
+              { className: "bann_title" },
               props.name
             ),
             _react2.default.createElement(
               "div",
-              { "class": "bann_title" },
+              { className: "bann_title" },
               "$",
               props.price
             ),
             _react2.default.createElement(
               "div",
-              { "class": "counters" },
+              { className: "counters" },
               _react2.default.createElement(
                 "button",
-                { "class": "btns" },
-                "+"
-              ),
-              _react2.default.createElement(
-                "span",
-                null,
-                "0"
-              ),
-              _react2.default.createElement(
-                "button",
-                { "class": "btns" },
-                "-"
+                { className: "btns" },
+                "Agregar al carrito"
               )
             )
           )
@@ -101,25 +91,25 @@ function Menu() {
       { id: "menu" },
       _react2.default.createElement(
         "h3",
-        { "class": "subtitle" },
+        { className: "subtitle" },
         "Desayunos"
       ),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/sand.jpg", name: "Sandwich", price: "10" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/juive.jpg", name: "Jugo de Naranja", price: "7" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/ca.jpg", name: "Caf\xE9 americano", price: "5" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/descarga.jpg", name: "Caf\xE9 leche", price: "7" }),
-      _react2.default.createElement("div", { "class": "clear" }),
+      _react2.default.createElement("div", { className: "clear" }),
       _react2.default.createElement("br", null),
       _react2.default.createElement(
         "h3",
-        { "class": "subtitle" },
+        { className: "subtitle" },
         "Comidas"
       ),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/h4.jpg", name: "Hamburgesa simple", price: "10" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/h5.jpg", name: "Hamburgesa doble", price: "15" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/ff.jpg", name: "Papas fritas", price: "5" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/onion.jpg", name: "Aros de cebolla", price: "5" }),
-      _react2.default.createElement("div", { "class": "clear" }),
+      _react2.default.createElement("div", { className: "clear" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/water.jpg", name: "Vaso de agua", price: "8" }),
       _react2.default.createElement(_ElementoMenu2.default, { src: "images/soda.jpg", name: "Soda de la casa", price: "10" })
     )
