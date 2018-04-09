@@ -140,7 +140,6 @@ function CreateMenu() {
         _react2.default.createElement(_Menu2.default, null)
     );
 }
-alert(':)');
 
 _reactDom2.default.render(_react2.default.createElement(CreateMenu, null), document.getElementById('react-container'));
 
